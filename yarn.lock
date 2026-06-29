@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 10
   cacheKey: 10c0
 
 "accepts@npm:^2.0.0":
@@ -189,7 +189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"express@npm:^5.2.1":
+"express@npm:^5.1.0":
   version: 5.2.1
   resolution: "express@npm:5.2.1"
   dependencies:
@@ -385,6 +385,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mi-app-docker@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "mi-app-docker@workspace:."
+  dependencies:
+    express: "npm:^5.1.0"
+  languageName: unknown
+  linkType: soft
+
 "mime-db@npm:^1.54.0":
   version: 1.54.0
   resolution: "mime-db@npm:1.54.0"
@@ -492,14 +500,6 @@ __metadata:
   checksum: 10c0/d266678d08e1e7abea62c0ce5864344e980fa81c64f6b481e9842c5beaed2cdcf975f658a3ccd67ad35fc919c1f6664ccc106067801850286a6cbe101de89f29
   languageName: node
   linkType: hard
-
-"render@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "render@workspace:."
-  dependencies:
-    express: "npm:^5.2.1"
-  languageName: unknown
-  linkType: soft
 
 "router@npm:^2.2.0":
   version: 2.2.0
